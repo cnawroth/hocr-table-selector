@@ -1,22 +1,11 @@
-hOCR-Proofreader
+In Progress...
 ================
 
-Web based JavaScript GUI library for proofreading/editing hOCR.
+Please be patient. Script is currently in development.
 
-Features:
+hOCR-Table-Selector
+================
 
-- Two view concept: Original layout vs. hOCR text – linked together (i.e. hovering words etc. on both sides)
-- Original layout can be switched between the original image and the text rendered from hOCR at the same positions –
-  really powerful to find OCR errors
-- Pure JavaScript without dependencies just using current browser features
-- Embeddable in other projects
+Based on the great project https://github.com/not-implemented/hocr-proofreader which offers a web based JavaScript GUI library for proofreading/editing of hOCR.
 
-Online-Demo: http://www.not-implemented.de/hocr-proofreader/
-
-
-TODO
-----
-
-- Full editor features (currently it's just a "contentEditable = true") ... there is a lot of work to do
-- Handling bounding-boxes on word/line/paragraph merge/split correctly
-- ...
+This fork extends the functionality by enabling users to select tables in the original file.
